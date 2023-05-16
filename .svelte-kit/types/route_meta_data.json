@@ -1,7 +1,11 @@
 {
 	"/": [],
+	"/images/[width]x[height]": [],
+	"/media/[...file]/[width]/[height]": [],
 	"/posts": [],
 	"/posts/create": [
 		"src/routes/posts/create/+page.ts"
-	]
+	],
+	"/posts/[slug]": [],
+	"/[lang]/about": []
 }
