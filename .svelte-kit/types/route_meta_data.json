@@ -1,11 +1,21 @@
 {
-	"/": [],
+	"/": [
+		"src/routes/+page.ts"
+	],
+	"/api/newsletter": [
+		"src/routes/api/newsletter/+server.ts"
+	],
+	"/api/posts": [
+		"src/routes/api/posts/+server.ts"
+	],
 	"/images/[width]x[height]": [],
 	"/media/[...file]/[width]/[height]": [],
 	"/posts": [],
 	"/posts/create": [
 		"src/routes/posts/create/+page.ts"
 	],
-	"/posts/[slug]": [],
+	"/posts/[slug]": [
+		"src/routes/posts/[slug]/+page.server.ts"
+	],
 	"/[lang]/about": []
 }
