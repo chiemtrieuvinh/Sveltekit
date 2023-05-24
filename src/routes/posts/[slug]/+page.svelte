@@ -8,11 +8,6 @@
   }
 </script>
 
-<h1>Post</h1>
-
-<pre>
-    {JSON.stringify($page, null, 2)}
-</pre>
 <hgroup>
   <h1>{data.post.title}</h1>
   <h2>{formatDate(data.post.createdAt)}</h2>
@@ -25,3 +20,7 @@
 <div class="content">
   {data.post.content}
 </div>
+
+<pre>
+    {JSON.stringify($page, null, 2)}
+</pre>

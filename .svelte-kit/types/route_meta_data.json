@@ -1,21 +1,62 @@
 {
 	"/": [
-		"src/routes/+page.ts"
+		"src/routes/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
 	],
 	"/api/newsletter": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts",
 		"src/routes/api/newsletter/+server.ts"
 	],
 	"/api/posts": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts",
 		"src/routes/api/posts/+server.ts"
 	],
-	"/images/[width]x[height]": [],
-	"/media/[...file]/[width]/[height]": [],
-	"/posts": [],
+	"/images/[width]x[height]": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/login": [
+		"src/routes/login/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/media/[...file]/[width]/[height]": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/posts": [
+		"src/routes/posts/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/posts/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
 	"/posts/create": [
-		"src/routes/posts/create/+page.ts"
+		"src/routes/posts/create/+page.ts",
+		"src/routes/posts/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
 	],
 	"/posts/[slug]": [
-		"src/routes/posts/[slug]/+page.server.ts"
+		"src/routes/posts/[slug]/+page.server.ts",
+		"src/routes/posts/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
 	],
-	"/[lang]/about": []
+	"/todos": [
+		"src/routes/todos/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/todos/+server.ts"
+	],
+	"/[lang]/about": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	]
 }
